@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Primer página web</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header class="container-nav">
+        <nav class="navbar" role="navigation">
+            <a href="#" class="brand">Mi página web</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Nuestros Servicios.html">Nuestros Servicios</a></li>
+                <li><a href="Acerca de.html">Acerca de</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </header>
+    <main>
+        <div class="container"></div>
+            <img  id="foto" src="img/Melvin Vargas.jpg">
+            <h1>Bienvenidos a mi primer Website</h1>
+            <section>
+                <h2>Presentación</h2>
+                <p>Soy <strong> Melvin Vargas</strong>, ¡y esta es mi primera página web!</p>
+                <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+            </section>
+            <section>
+                <h2>Lo que se viene...</h2>
+                <p>
+                A lo largo de este curso, estaré aprendiendo <strong>HTML, CSS y JavaScript</strong>. Estos lenguajes me ayudarán a crear una base sólida en el desarrollo <strong>web front-end</strong>.
+                </p>
+            </section>
+        </div>
+        <div class="video-container">
+            <!--- 
+            <video width="560" height="315" src="video/lapto.mp4" controls></video>
+            <button class="botones_secundarios" onClick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mí!</button>
+            -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qWcwFMAqpME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </main>
+    <footer>
+        <img src="img/logoEgg.png">
+        <p id="leyenda"><strong>2023. Todos los derechos reservados. - Melvin Vargas.</strong></p>
+    </footer>
+        <!-- enlazando js a html-->
+        <script src="script.js"></script>
+  </body>
+</html>
