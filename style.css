@@ -72,6 +72,10 @@ body{
     margin: 5px;
   }
 
+.greeting{
+  text-align: center;
+}
+
 #foto{
     float:right;
     width: 300px;
